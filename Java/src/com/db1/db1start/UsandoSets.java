@@ -44,5 +44,34 @@ public class UsandoSets {
 
         //Em um set com números inteiros encontre o menor, o maior,
         // a soma e a média
+        HashSet<Integer> numeros = new HashSet<>(
+                Arrays.asList(1, 2, 3, 4));
+
+        //Problema paradoxal
+//        Integer min = Integer.MAX_VALUE;
+//        final Integer max = Integer.MIN_VALUE;
+//        Integer soma = 0;
+//        numeros.forEach(n -> {
+//            min = n < min ? n : min;
+//            max = n > max ? n : max;
+//            soma += n;
+//        });
+//        Integer min = Integer.MAX_VALUE;
+//        Integer max = Integer.MIN_VALUE;
+//        Integer soma = 0;
+//        for (Integer n : numeros) {
+//            min = n < min ? n : min;
+//            max = n > max ? n : max;
+//            soma += n;
+//        }
+//    }
+//        Integer[] min = {Integer.MAX_VALUE};
+//        Integer[] max = {Integer.MIN_VALUE};
+//        Integer[] soma = {0};
+//        numeros.forEach(n -> {
+//            min[0] = n < min[0] ? n : min[0];
+//            max[0] = n > max[0] ? n : max[0];
+//            soma[0] += n;
+//        });
     }
 }
