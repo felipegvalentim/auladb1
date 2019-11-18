@@ -99,7 +99,7 @@ public class ExEstruturaJava {
 
     //Método que receba uma lista de números e retorne um mapa com listas de números pares e impares
 
-    //Não consegui concluir o exercicio
+
 
     private static void separar(){
         System.out.println("------------------");
